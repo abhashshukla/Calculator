@@ -1,46 +1,48 @@
 <html>
+
 <head>
-<title>
-Calculator
-</title>
+    <title>
+        Calculator
+    </title>
 </head>
+
 <body>
-<h1> Hello My name is Gaurav Deora First git git experiment trying to make my calculator </h1>
-<input type="number" id = "num1"/>
-<input type="number" id = "num2"/>
-<script>
-function add()
-{
-var first = document.getElementById("num1").value;
-var second = document.getElementById("num2").value;
-var added = parseInt(first) + parseInt(second);
-alert('Sum = '+added);
-}
-function sub()
-{
-var first = document.getElementById("num1").value;
-var second = document.getElementById("num2").value;
-var added = parseInt(first) - parseInt(second);
-alert(added);
-}
-function mul()
-{
-var first = document.getElementById("num1").value;
-var second = document.getElementById("num2").value;
-var added = parseInt(first) * parseInt(second);
-alert(added);
-}
-function divide()
-{
-var first = document.getElementById("num1").value;
-var second = document.getElementById("num2").value;
-var added = parseInt(first) / parseInt(second);
-alert(added);
-}
-</script>
-<input type="button" value="+" onclick="add()"/>
-<input type="button" value="-" onclick="sub()"/>
-<input type="button" value="*" onclick="mul()"/>
-<input type="button" value="/" onclick="divide()"/>
+    <h1>Hello My name is Shourya V Raman First git experiment trying to make my calculator<br> Hello My name is Gaurav Deora First git experiment trying to make my calculator </h1>
+    <input type="number" id="num1" />
+    <input type="number" id="num2" />
+    <script>
+        function add() {
+            var first = document.getElementById("num1").value;
+            var second = document.getElementById("num2").value;
+            var added = parseInt(first) + parseInt(second);
+            alert('Sum = ' + added);
+        }
+
+        function sub() {
+            var first = document.getElementById("num1").value;
+            var second = document.getElementById("num2").value;
+            var added = parseInt(first) - parseInt(second);
+            alert(added);
+        }
+
+        function mul() {
+            var first = document.getElementById("num1").value;
+            var second = document.getElementById("num2").value;
+            var added = parseInt(first) * parseInt(second);
+            alert(added);
+        }
+
+        function divide() {
+            var first = document.getElementById("num1").value;
+            var second = document.getElementById("num2").value;
+            var added = parseInt(first) / parseInt(second);
+            alert(added);
+        }
+    </script>
+    <input type="button" value="+" onclick="add()" />
+    <input type="button" value="-" onclick="sub()" />
+    <input type="button" value="*" onclick="mul()" />
+    <input type="button" value="/" onclick="divide()" />
 </body>
+
 </html>
